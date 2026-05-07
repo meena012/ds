@@ -57,14 +57,11 @@ result = pd.DataFrame({
     'Actual Price': y_test,
     'Predicted Price': y_pred
 })
-
 result.head(10)
 
 #Plot Actual vs Predicted
 plt.scatter(y_test, y_pred)
-
 plt.xlabel("Actual Price")
 plt.ylabel("Predicted Price")
 plt.title("Actual vs Predicted House Prices")
-
 plt.show()
