@@ -23,7 +23,7 @@ df.isnull().sum()
 df['Maths'] = df['Maths'].fillna(df['Maths'].mean())
 df['Science'] = df['Science'].fillna(df['Science'].mean())
 df['English'] = df['English'].fillna(df['English'].mean())
-df['Attendance()'] = df['Attendance'].fillna(df['Attendance'].mean())
+df['Attendance'] = df['Attendance'].fillna(df['Attendance'].mean())
 
 df.isnull().sum()
 
