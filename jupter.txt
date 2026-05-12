@@ -1,0 +1,4 @@
+python --version 
+pip install jupyter 
+jupyter notebook 
+python -m notebook
